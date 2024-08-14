@@ -3,8 +3,10 @@ public class sepreteDigit {
         int n=123456;
         while(n>0){
             int digit=n%10;
-            System.out.println(digit);
+            System.out.print(digit);
             n=n/10;
+            
         }
+       
     }
 }
